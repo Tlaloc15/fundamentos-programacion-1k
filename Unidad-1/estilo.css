@@ -1,0 +1,28 @@
+p, li, h1 { /* Selector elementos (HTML) */
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+
+}
+
+#niveles { /* Selector de identidad (id) */
+    background-color: burlywood;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.sin-borde { /* Selector de clase (class)*/
+    color: orange;
+    background-color: azure;
+    border: 0px;
+
+}
+
+#niveles:hover { /* Selector de pseudo-clase, cuando el cursosr se pasa por la oracion cambia de color */
+    background-color: aqua;
+    color: black; 
+}
+
+label[for] { /*Las etiquetas que tengan el atributo for */
+    color: royalblue;
+}
+
