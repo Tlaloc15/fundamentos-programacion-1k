@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
 </head>
 <body>
     <p> Universidad de colima</p>
@@ -17,16 +19,16 @@
         En esta página se mestran ejemplos de los principales elementos para estructurar el contenido de una página web
     </p>
     <h2> Encabezados</h2>
-    <p>
+    <p id="niveles">
         Existen 6 niveles y se deben de respetar
     </p>
     
-    <h2> Listas </h2>
+    <h2 class="sin-borde"> Listas </h2>
     <h3>Listas desordenadas</h3>
     <ul>
-        <li>c++</li>
-        <li>c#</li>
-        <li>Java</li>
+        <li class="sin-borde">c++</li>
+        <li class="sin-borde">c#</li>
+        <li class="sin-borde">Java</li>
     </ul>
 
     <h3>Listas ordenadas</h3>
@@ -52,7 +54,8 @@
     <form>
         <div>
             <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" />
+            <input type="text" id="nombre" 
+            maxlength="10" size="50"/>
         </div>
         <div>
             <label for="Email" >Email: </label>
@@ -61,6 +64,14 @@
         <div>
             <label for="comentarios">Comentarios:</label>
             <textarea id="comentarios"></textarea>
+        </div>
+        <div>
+            <label for="clave">contraseña: </label>
+            <input type="password" id="clave" />
+        </div>
+        <div>
+            <label for="color">Elige un color: </label>
+            <input type="color" id="color" />
         </div>
         <div>
             <button id="enviar">Enviar</button>
