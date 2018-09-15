@@ -1,0 +1,49 @@
+
+body {background-color: grey;
+}
+#contacto {
+    background-color: rgb(255, 244, 244);
+    font-family: 'Gamja Flower', cursive;
+}
+
+.borde {
+    color: orange;
+    background-color: azure;
+    border: 10px;
+    border-radius: 15%;
+    width: 300px;
+
+    margin:auto;
+    border: 5px solid white;
+}
+
+.titulo {
+    color: white;
+    background-color: green;
+    width: 390px;
+    border: 10px;
+    padding: 5px;
+    margin:auto;
+}
+.bordes {
+    color: white;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin:auto;
+}
+
+.env {
+    color: white;
+    background-color: green;
+    width: 120px;
+}
+
+#niveles:hover { /* Selector de pseudo-clase, cuando el cursosr se pasa por la oracion cambia de color */
+    background-color: aqua;
+    color: black; 
+}
+
+label[for] { /*Las etiquetas que tengan el atributo for */
+    color: royalblue;
+}
